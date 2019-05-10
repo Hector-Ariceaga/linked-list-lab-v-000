@@ -11,9 +11,9 @@ let next = (node, collection) => {
   return collection[nextAddress]
 }
 
-let nodeAt = (head, address) => {
+let nodeAt = (head, index) => {
   let node = head;
-  for (i = 0; i < address; i++) {
+  for (i = 0; i < index; i++) {
     node = next(node);
   }
 }
