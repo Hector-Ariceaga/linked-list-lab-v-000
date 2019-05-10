@@ -12,7 +12,7 @@ let next = (node, collection) => {
 }
 
 let nodeAt = (head, linkedList, collection) => {
-  let node = headnode(linkedList, collection);
+  let node = headNode(linkedList, collection);
   for (let i = 0; i < head; i++) {
     node = next(node);
   }
