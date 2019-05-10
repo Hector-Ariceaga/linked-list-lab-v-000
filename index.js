@@ -32,7 +32,7 @@ let indexAt = (node, collection, linkedList) => {
   let currentNode = headNode(linkedList, collection);
   let counter = 0;
   console.log(node, currentNode)
-  if (getName(currentNode) != getName(node))
+  if (getName(currentNode) != getName(node)) {
     counter++
     currentNode = next(currentNode)
   }
