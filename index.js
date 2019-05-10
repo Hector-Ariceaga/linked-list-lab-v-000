@@ -29,9 +29,7 @@ let addressAt = (index, linkedList, collection) => {
 }
 
 let indexAt = (node, collection, linkedList) => {
-  let head = headNode(linkedList, collection)
-  console.log(head)
-  let currentNode;
+  let currentNode = headNode(linkedList, collection);
   let counter = 0;
   while (currentNode != node) {
     counter += 1
