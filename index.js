@@ -3,5 +3,5 @@ let getName = (node) => {
 }
 
 let headNode = (linkedList) => {
-  return linkedList[0]
+  return linkedList.first
 }
