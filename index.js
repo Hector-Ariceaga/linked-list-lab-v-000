@@ -6,7 +6,7 @@ let headNode = (linkedList, collection) => {
   return collection[linkedList]
 }
 
-let next = (head,collection) => {}
+let next = (head,collection) => {
   let nextAddress = head[1]
   console.log(nextAddress)
   return collection[nextAddress]
