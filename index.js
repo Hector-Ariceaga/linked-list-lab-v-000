@@ -36,5 +36,6 @@ let indexAt = (node, collection, linkedList) => {
     counter++
     currentNode = next(currentNode)
   }
+  console.log(counter)
   return counter
 }
