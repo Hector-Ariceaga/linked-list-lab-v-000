@@ -8,7 +8,7 @@ let headNode = (linkedList, collection) => {
 
 let next = node => {
   let nextAddress = node[1]
-  return collection[nextAddress]
+  return node[nextAddress]
 }
 
 let nodeAt = (head, address) => {
