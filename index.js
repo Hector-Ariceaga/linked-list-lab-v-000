@@ -27,3 +27,14 @@ let addressAt = (index, linkedList, collection) => {
     return linkedList
   }
 }
+
+let indexAt = (node, collection, linkedList) => {
+  let head = headNode(linkedList, collection)
+  let currentNode;
+  let counter = 0;
+  while (currentNode != node) {
+    counter += 1
+    node = next(head)
+  }
+  return counter
+}
