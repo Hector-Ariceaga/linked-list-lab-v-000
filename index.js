@@ -33,6 +33,7 @@ let indexAt = (node, collection, linkedList) => {
   let counter = 0;
   console.log(node, currentNode)
   if (currentNode != node) {
+    binding.pry
     counter++
     currentNode = next(currentNode)
   }
