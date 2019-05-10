@@ -34,7 +34,7 @@ let indexAt = (node, collection, linkedList) => {
   console.log(node, currentNode)
   if (getName(currentNode) != getName(node)) {
     counter++
-    currentNode = next(currentNode)
+    currentNode = next(currentNode, collection)
   }
   console.log(counter)
   return counter
