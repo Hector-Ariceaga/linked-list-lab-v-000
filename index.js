@@ -2,6 +2,6 @@ let getName = (node) => {
   return node['name']
 }
 
-let headNode = (linkedList) => {
-  return linkedList.first
+let headNode = (linkedList, collection) => {
+  return collection[linkedList]
 }
