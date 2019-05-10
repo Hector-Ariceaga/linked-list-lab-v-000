@@ -31,7 +31,7 @@ let addressAt = (index, linkedList, collection) => {
 let indexAt = (node, collection, linkedList) => {
   let currentNode = headNode(linkedList, collection);
   let counter = 0;
-  while (currentNode != node) {
+  if (currentNode != node) {
     counter++
     currentNode = next(currentNode)
   }
