@@ -13,7 +13,7 @@ let next = (node, collection) => {
 
 let nodeAt = (head, index) => {
   let node = head;
-  for (i = 0; i < index; i++) {
+  for (let i = 0; i < index; i++) {
     node = next(node);
   }
 }
