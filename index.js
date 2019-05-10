@@ -24,7 +24,6 @@ let addressAt = (index, linkedList, collection) => {
     let node = nodeAt(index - 1, linkedList, collection)
     return node['next']
   } else {
-    let node = headNode(linkedList, collection)
-    node.key()
+    return linkedList
   }
 }
