@@ -37,3 +37,7 @@ let indexAt = (node, collection, linkedList) => {
   }
   return counter
 }
+
+let insertNodeAt = (index, address, collection, linkedList) => {
+  
+}
