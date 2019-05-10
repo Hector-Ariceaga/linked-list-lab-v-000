@@ -39,9 +39,9 @@ let indexAt = (node, collection, linkedList) => {
 }
 
 let insertNodeAt = (index, address, collection, linkedList) => {
-  
+
 }
 
 let deleteNodeAt = (index, linkedList, collection) => {
-  
+
 }
