@@ -21,5 +21,5 @@ let nodeAt = (index, linkedList, collection) => {
 
 let addressAt = (index, linkedList, collection) => {
   let node = nodeAt(index, linkedList, collection)
-  return node.key()
+  return Object.keys(node)
 }
