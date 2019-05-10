@@ -19,6 +19,7 @@ let nodeAt = (index, linkedList, collection) => {
   return node;
 }
 
-let addressAt = (head, address) => {
-
+let addressAt = (index, linkedList, collection) => {
+  let node = nodeAt(index, linkedList, collection)
+  return node['next']
 }
