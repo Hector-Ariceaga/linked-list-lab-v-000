@@ -32,7 +32,7 @@ let indexAt = (node, collection, linkedList) => {
   let currentNode = headNode(linkedList, collection);
   let counter = 0;
   while (currentNode != node) {
-    counter += 1
+    counter++
     currentNode = next(currentNode)
   }
   return counter
