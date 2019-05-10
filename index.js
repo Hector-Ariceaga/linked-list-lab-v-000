@@ -39,5 +39,5 @@ let indexAt = (node, collection, linkedList) => {
 }
 
 let insertNodeAt = (index, address, collection, linkedList) => {
-  
+
 }
