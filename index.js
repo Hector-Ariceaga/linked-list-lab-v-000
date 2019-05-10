@@ -16,6 +16,7 @@ let nodeAt = (head, index) => {
   for (let i = 0; i < index; i++) {
     node = next(node);
   }
+  return node
 }
 
 let addressAt = (head, address) => {
