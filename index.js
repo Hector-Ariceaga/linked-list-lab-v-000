@@ -11,12 +11,12 @@ let next = (node, collection) => {
   return collection[nextAddress]
 }
 
-let nodeAt = (node, linkedList, collection) => {
-  let head = headNode(linkedList, collection);
-  for (let i = 0; i < node; i++) {
-    head = next(head);
+let nodeAt = (index, linkedList, collection) => {
+  let node = headNode(linkedList, collection);
+  for (let i = 0; i < index; i++) {
+    node = next(node, collection);
   }
-  return head
+  return node;
 }
 
 let addressAt = (head, address) => {
