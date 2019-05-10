@@ -19,5 +19,5 @@ let nodeAt = (head, address) => {
 }
 
 let addressAt = (head, address) => {
-  
+
 }
