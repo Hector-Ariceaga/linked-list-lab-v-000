@@ -21,6 +21,5 @@ let nodeAt = (index, linkedList, collection) => {
 
 let addressAt = (index, linkedList, collection) => {
   let node = nodeAt(index - 1, linkedList, collection)
-  console.log(node)
-  return
+  return node['next']
 }
