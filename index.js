@@ -39,7 +39,6 @@ let indexAt = (node, collection, linkedList) => {
 }
 
 let insertNodeAt = (index, address, collection, linkedList) => {
-  console.log(nodeAt(index, linkedList, collection))
 }
 
 // let deleteNodeAt = (index, linkedList, collection) => {
