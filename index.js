@@ -47,6 +47,7 @@ let insertNodeAt = (index, address, linkedList, collection) => {
   previousNode['next'] = address;
   console.log(previousNode['next'])
   let newNode = next(previousNode);
+  console.log(newNode)
   newNode['next'] = futureAddress
 }
 
