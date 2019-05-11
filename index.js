@@ -38,7 +38,7 @@ let indexAt = (node, collection, linkedList) => {
   return counter
 }
 
-let insertNodeAt = (index, address, collection, linkedList) => {
+let insertNodeAt = (index, address, linkedList, collection) => {
   console.log(index,address,collection,linkedList)
 }
 
