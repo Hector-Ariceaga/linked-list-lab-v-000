@@ -39,8 +39,11 @@ let indexAt = (node, collection, linkedList) => {
 }
 
 let insertNodeAt = (index, address, linkedList, collection) => {
-  let previousNode = nodeAt(index - 1, linkedList, collection)
-  console.log(previousNode)
+  let previousNode = nodeAt(index, linkedList, collection);
+  let futureAddress = previousNode['next']
+  previousNode['next'] = address;
+  let newNode = next(previousNode);
+  newNode['next'] = futureAddress
 }
 
 // let deleteNodeAt = (index, linkedList, collection) => {
